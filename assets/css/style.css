@@ -51,23 +51,25 @@ h1 {
 }
 
 h2 {
-    float: left;
+    padding: 20px;
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 960px;
+    margin-left: 200px;
     color: #4aaaa5;
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
-    height: 100%;
-    margin: 0;
 }
 
 .maincontent {
     display: flex;
     align-items: flex-start;
-    margin: 30px 200px 30px 200px;
+    margin: 0px 200px 30px 200px;
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
-    height: 500px;
     padding: 20px;
 }
 
@@ -96,18 +98,25 @@ td {
 }
 
 label {
+    flex-direction: column;
     background-color: #ffffff;
     padding: 20px;
 }
 
 input {
+    flex-direction: column;
     background-color: #ffffff;
 }
 
 button {
     color: #ffffff;
     background-color: #4aaaa5
-    
+}
+
+hr {
+    width: 960px;
+    margin: 0px 200px 0px 200px;
+    border-color: #777777;
 }
 
 footer {
